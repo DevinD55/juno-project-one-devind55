@@ -226,6 +226,25 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 header {
-  background-color: blue;
+  min-height: 100vh;
+  padding: 45px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-logo {
+  font-size: 3.58rem;
+  font-family: "Pompiere", cursive;
+  color: #0d0d0d;
+}
+
+h1 {
+  font-size: 11rem;
+  font-family: "Pompiere", cursive;
+  color: #4C0341;
 }
