@@ -1,0 +1,16 @@
+.under-sea {
+    background-color: #fae5ff;
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20% 0;
+        margin: 0 auto;
+        width: 70%;
+    }
+    p {
+        text-align: center;
+        margin: 3%;
+    }
+}
