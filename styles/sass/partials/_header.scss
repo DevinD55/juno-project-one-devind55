@@ -4,12 +4,14 @@ header {
     background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/header-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 45px 0;
     
     .flex-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
     }
     ul {
         display: flex;
@@ -19,9 +21,8 @@ header {
     }
     nav {
         order: 1;
-        // flex-basis: calc((40%) - 80px);
-        width: 35%;
-        
+        flex-basis: calc((40%) - 80px);
+        // width: 35%;
     }
 
     span {

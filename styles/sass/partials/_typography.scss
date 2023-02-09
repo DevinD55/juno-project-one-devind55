@@ -24,7 +24,16 @@ h2 {
     font-family: 'Pompiere', cursive;
     font-weight: lighter;
     color: #4C0341;
-    letter-spacing: 1.2rem;
+    letter-spacing: .12rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 5.2rem;
+    font-family: 'Pompiere', cursive;
+    font-weight: lighter;
+    color: #4C0341;
+    letter-spacing: .16rem;
     margin: 0;
 }
 
@@ -42,23 +51,33 @@ ul {
 }
 
 // Buttons
-a {
+button {
     text-decoration: none;
     color: #0d0d0d;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
+    padding: 10px 30px;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    line-height: 2.9rem;
+    color: #0d0d0d;
+    font-weight: bold;
 }
 
 .purple-button {
         color: #fff;
         background-color: #4C0341;
-        padding: 10px 30px;
 }
 
 .orange-button {
     color: #fff;
     background-color: #fe5f19;
-    padding: 10px 30px;
 }
 
 p {

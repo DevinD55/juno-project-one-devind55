@@ -1,5 +1,8 @@
-@import "partials/setup";
-@import "partials/global";
-@import "partials/header";
-@import "partials/typography";
-@import "partials/under-sea";
+@use "partials/setup";
+@use "partials/global";
+@use "partials/header";
+@use "partials/typography";
+@use "partials/under-sea";
+@use "partials/additions-options";
+@use "partials/blog-content";
+@use "partials/banner-image"

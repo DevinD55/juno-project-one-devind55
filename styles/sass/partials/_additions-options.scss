@@ -1,0 +1,21 @@
+.additions-options {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li {
+        width: 45%;
+        align-content: space-between;
+        
+        p {
+            margin: 2%;
+        }
+    }
+    img {
+            width: 100%;
+            height: auto;
+    }
+}
+
+
