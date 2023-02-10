@@ -26,6 +26,7 @@
         <div class="wrapper"> 
             <h1>Find <span>something</span> new</h1>
         </div>
+        <img src="assets/home-box-header.png" class="floating-header-image">
     </header>
     <main>
 
@@ -44,22 +45,26 @@
                 <ul class="flex-container">
                     <li>
                         <div>
-                            <img src="assets/left-image.jpg">
+                            <img src="assets/left-image.jpg" class="left-image">
                         </div>
                     </li>
-                    <li class="wrapper">
-                        <h3>NEW ADDITIONS</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dignissimos quis, quisquam inventore amet a aperiam tempora qui reiciendis, quas saepe enim cupiditate sunt eos quasi possimus distinctio blanditiis animi.</p>
-                        <button class="orange-button" href="#">READ MORE</button>
-                    </li>
-                    <li class="wrapper">
-                        <h3>TOO MANY OPTIONS</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolorem temporibus ex aspernatur. Harum fugiat doloribus quisquam ex sequi placeat nemo incidunt alias optio deserunt. Obcaecati quod assumenda unde aliquid.</p>
-                        <button class="orange-button" href="#">READ MORE</button>
+                    <li>
+                        <div class="wrapper additions">
+                            <h3>NEW ADDITIONS</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dignissimos quis, quisquam inventore amet a aperiam tempora qui reiciendis, quas saepe enim cupiditate sunt eos quasi possimus distinctio blanditiis animi.</p>
+                            <button class="orange-button" href="#">READ MORE</button>
+                        </div>
                     </li>
                     <li>
-                        <div>
-                            <img src="assets/right-image.jpg">
+                        <div class="wrapper options">
+                            <h3>TOO MANY OPTIONS</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolorem temporibus ex aspernatur. Harum fugiat doloribus quisquam ex sequi placeat nemo incidunt alias optio deserunt. Obcaecati quod assumenda unde aliquid.</p>
+                            <button class="orange-button" href="#">READ MORE</button>
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="flex-container">
+                            <img src="assets/right-image.jpg" class="right-image">
                         </div>
                     </li>
                     
@@ -67,8 +72,8 @@
             </div>
         </section>
 
-        <section class="blog-content wrapper">
-            <div>
+        <section class="blog-content">
+            <div class="wrapper">
                 <ul class="flex-container">
                     <li>
                         <h3>LOCATIONS</h3>
@@ -97,18 +102,23 @@
             </div>
         </section>
 
-        <section class="popular">
-            <div class="flex-box">
-                <img src="assets/square-image.jpg">
-                <h4>POPULAR THIS MONTH</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum tempore officiis odit odio deserunt vel illum ab veniam, nisi distinctio possimus sequi architecto eligendi aperiam culpa ullam iusto nihil.</p>
-                <a class="button-orange" href="#">FIND OUT MORE</a>
+        <section class="popular wrapper">
+            <div class="flex-container">
+                <div>
+                    <img src="assets/square-image.jpg" class="popular-photo">
+                </div>
+    
+                <div class="popular-content">
+                    <h2>POPULAR THIS MONTH</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum tempore officiis odit odio deserunt vel illum ab veniam, nisi distinctio possimus sequi architecto eligendi aperiam culpa ullam iusto nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius numquam ullam quidem obcaecati et doloribus, eum accusantium distinctio. Ducimus ipsa animi fugiat voluptatem maiores voluptas. Provident nihil blanditiis veritatis consectetur.</p>
+                    <button class="orange-button" href="#">FIND OUT MORE</button>
+                </div>
             </div>
         </section>
 
         <section class="image-gallery">
-            <div class="flex-container">
-                <ul>
+            <div class="wrapper">
+                <ul class="flex-container">
                     <li><img src="assets/gallery-image-1.jpg" alt="brown shoes sitting on a building ledge"></li>
                     <li><img src="assets/gallery-image-3.jpg" alt="brown leather womens boots"></li>
                     <li><img src="assets/gallery-image-2.jpg" alt="shoe rack with multipel pairs"></li>
@@ -117,7 +127,7 @@
         </section>
     </main>
     <footer>
-        <p> Copyright 2019 Juno College</p>
+        <p class="footer"> Copyright 2019 Juno College</p>
     </footer>
 </body>
 </html>

@@ -1,7 +1,11 @@
 .blog-content {
+
+    background-color: #fae5ff;
+
     div {
         width: 100%;
         height:auto;
+        background-color: #fae5ff;
     }
     .flex-container {
         display: flex;
@@ -16,4 +20,7 @@
         width: 50%;
         padding: 2%;
     }   
+    h3 {
+        padding: 5% 0;
+    }
 }

@@ -1,0 +1,14 @@
+.image-gallery {
+    background-color: #fae5ff;
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    img {
+        width: 95%;
+    }
+}

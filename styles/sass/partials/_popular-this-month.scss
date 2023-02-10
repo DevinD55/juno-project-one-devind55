@@ -1,0 +1,28 @@
+.popular {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        padding-top:10%;
+        padding-bottom: 5%;
+        align-content: space-evenly;
+
+
+        .popular-photo {
+            // width: 45%;
+            box-shadow: 25px 25px #fe6f19;
+        }
+
+        .popular-content {
+            width: 90%;
+            padding: 0 10%;
+
+            p {
+                padding-top: 2%;
+            padding-bottom: 2%;
+            }
+            
+        }
+    }
+
+
+}

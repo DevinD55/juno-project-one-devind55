@@ -38,3 +38,11 @@ header {
     }
 }
 
+.floating-header-image {
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: -20%;
+
+}
