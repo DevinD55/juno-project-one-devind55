@@ -19,7 +19,8 @@
         .flex-container {
             display: flex;
             flex-direction: row;
-            justify-content: end;
+            justify-content: flex-end;
+            align-items: flex-end;
         }
     }
     img {
@@ -27,13 +28,11 @@
             height: auto;
     }
 
-    .additions {
-        padding: 5%;
-    }
+
 
     .options {
         text-align: right;
-        padding: 5%;
+
     }
 
     .left-image {
@@ -43,8 +42,6 @@
     }
 
     .right-image {
-        position: relative;
-        justify-content: end;
         box-shadow: -25px 25px #fe6f19;
     }
 }

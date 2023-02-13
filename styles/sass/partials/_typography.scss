@@ -19,7 +19,6 @@ h1 {
 }
 
 // "What is under the sea?" in second section
-// Also the same for Popular this Month and Shoes Around the World.
 h2 {
     font-size: 5.2rem;
     font-family: 'Pompiere', cursive;
@@ -29,8 +28,18 @@ h2 {
     margin: 0;
 }
 
-// locations, community, blog, get in touch...
+// Additions and Options
 h3 {
+    font-size: 4.2rem;
+    font-family: 'Pompiere', cursive;
+    font-weight: lighter;
+    color: #0D0D0D;
+    letter-spacing: .13rem;
+    margin: 0;
+}
+
+// locations, community, blog, get in touch...
+h4 {
     font-size: 5.2rem;
     font-family: 'Pompiere', cursive;
     font-weight: lighter;
@@ -40,12 +49,22 @@ h3 {
 }
 
 // popular this month, shoes around the world
-h4 {
+h5 {
     font-size: 5.2rem;
     font-family: 'Pompiere', cursive;
     font-weight: lighter;
     color: #4C0341;
     letter-spacing: .16rem;
+    margin: 0;
+}
+
+// Any weather and recent posts on left side of blog
+h6 {
+    font-size: 3rem;
+    font-family: 'Pompiere', cursive;
+    font-weight: lighter;
+    color: #4C0341;
+    letter-spacing: .13rem;
     margin: 0;
 }
 

@@ -1,0 +1,53 @@
+.blog-body {
+    background-color: #fae5ff;
+}
+
+.blog-wrapper {
+    width: 1200px;
+    max-width: 60%;
+    position: relative;
+    left: 40%;
+
+    h5 {
+        padding-top: 5%;
+    }
+}
+
+.around-world {
+
+}
+
+.blog-image {
+    box-shadow: -25px 25px #fe6f19;
+}
+
+.blog-content {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left-content {
+
+
+        .left-copy{
+            background-color: white;
+            width: 50%;
+            position: relative;
+            left: -70px;
+            padding-left: 5%;
+            h6 {
+                padding-top: 7%;
+                padding-bottom: 5%;
+            }
+
+            ul {
+                padding-bottom: 10%
+            }
+        
+            li {
+        
+            }
+        }
+    }
+}
