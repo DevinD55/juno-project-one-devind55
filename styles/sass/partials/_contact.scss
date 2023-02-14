@@ -10,6 +10,10 @@
         box-shadow: -25px 25px #fe6f19;
     }
 
+    .contact-header {
+        text-align: center;
+    }
+
     .contact-form {
         display:flex;
         flex-direction: column;
@@ -70,10 +74,9 @@
             flex-direction: row;
         }
     }
-}
-
-footer{
-    position: absolute;
-    top: 150%;
-    width: 100%
+    footer{
+        position: absolute;
+        top: 150%;
+        width: 100%
+    }
 }

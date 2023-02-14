@@ -243,16 +243,19 @@ body {
 .home {
   background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/header-image.jpg);
   height: 80vh;
+  max-width: 100vw;
 }
 
 .blog {
   background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/blog-header.jpg);
   height: 60vh;
+  max-width: 100vw;
 }
 
 .contact {
   background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/contact-image.jpg);
   height: 60vh;
+  max-width: 100vw;
 }
 
 header {
@@ -308,11 +311,12 @@ header a:focus {
 }
 
 .floating-header-image {
-  height: 110%;
-  position: absolute;
+  height: auto;
+  position: relative;
   z-index: 10;
-  right: 0;
-  bottom: -30%;
+  right: -50%;
+  bottom: 60%;
+  width: 50%;
 }
 
 .floating-blog-image {
@@ -535,8 +539,8 @@ form {
           box-shadow: 25px 25px #fe6f19;
 }
 .additions-options .right-image {
-  -webkit-box-shadow: -25px 25px #fe6f19;
-          box-shadow: -25px 25px #fe6f19;
+  -webkit-box-shadow: -25px 25px c;
+          box-shadow: -25px 25px c;
 }
 
 .index-blog {
@@ -569,7 +573,7 @@ form {
   width: 50%;
   padding: 2%;
 }
-.index-blog h3 {
+.index-blog h4 {
   padding: 5% 0;
 }
 
@@ -814,6 +818,9 @@ footer p {
   -webkit-box-shadow: -25px 25px #fe6f19;
           box-shadow: -25px 25px #fe6f19;
 }
+.contact-page .contact-header {
+  text-align: center;
+}
 .contact-page .contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -885,9 +892,145 @@ footer p {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-
-footer {
+.contact-page footer {
   position: absolute;
   top: 150%;
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  .home .floating-header-image {
+    display: none;
+  }
+  .home ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 10px;
+  }
+  .home a {
+    color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  .additions-options .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .additions-options .flex-container li {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .index-blog .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .index-blog .flex-container li {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .popular .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .popular .flex-container h5 {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .blog .floating-blog-image {
+    display: none;
+  }
+  .blog ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 10px;
+  }
+  .blog a {
+    color: #fe6f19;
+  }
+}
+
+@media (max-width: 800px) {
+  .blog-body .left-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog-body .left-content img {
+    width: 80%;
+  }
+  .blog-body .left-content .left-copy {
+    left: -5%;
+  }
+  .blog-body .left-content .left-copy h6 {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 800px) {
+  .around-world h5 {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-page ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 10px;
+  }
+  .contact-page .contact-header {
+    text-align: center;
+  }
+  .contact-page .contact-header h1 {
+    line-height: 10rem;
+  }
+  .contact-page a {
+    color: #4C0341;
+  }
+  .contact-page .blog-wrapper {
+    width: 1200px;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
 }

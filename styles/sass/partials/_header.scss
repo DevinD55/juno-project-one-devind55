@@ -1,16 +1,19 @@
 .home {
-    background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/header-image.jpg);
-    height: 80vh;;
+    background-image: image(assets/header-image.jpg);
+    height: 80vh;
+    max-width: 100vw;
 }
 
 .blog {
-    background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/blog-header.jpg);
+    background-image: image(assets/blog-header.jpg);
     height: 60vh;
+    max-width: 100vw;
 }
 
 .contact {
-    background-image: url(/Users/devindunn/websites/juno/projects/project-1/assets/contact-image.jpg);
+    background-image: image(assets/contact-image.jpg);
     height: 60vh;
+    max-width: 100vw;
 }
 
 header {
@@ -52,11 +55,12 @@ header {
 }
 
 .floating-header-image {
-    height: 110%;
-    position: absolute;
+    height: auto;
+    position: relative;
     z-index: 10;
-    right: 0;
-    bottom: -30%;
+    right: -50%;
+    bottom: 60%;
+    width: 50%;
 }
 
 .floating-blog-image {
