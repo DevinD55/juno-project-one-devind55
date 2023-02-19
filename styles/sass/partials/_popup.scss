@@ -1,0 +1,37 @@
+.popup {
+    background-color: white;
+    border: 20px solid #fe6f19;
+    width: 50%;
+    padding: 20px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    left: 50%;
+    top: 50%;
+
+    h2, p {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .purple-button {
+        text-align: center;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .close {
+        background-color: transparent;
+        color: grey;
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: 0 0 20px auto;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}

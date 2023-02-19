@@ -405,7 +405,6 @@ button {
   color: #0d0d0d;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
-  padding: 10px 30px;
   line-height: 3.2rem;
   letter-spacing: 0.1rem;
 }
@@ -422,11 +421,13 @@ a {
 .purple-button {
   color: #fff;
   background-color: #4C0341;
+  padding: 10px 30px;
 }
 
 .orange-button {
   color: #fff;
   background-color: #882C07;
+  padding: 10px 30px;
 }
 
 p {
@@ -651,6 +652,9 @@ footer p {
   padding-right: 15%;
   padding-bottom: 10%;
 }
+.blog-wrapper .blog-copy h5 {
+  padding-top: 55%;
+}
 .blog-wrapper .date {
   font-weight: bolder;
   padding-bottom: 3%;
@@ -665,9 +669,6 @@ footer p {
 
 .around-world {
   position: relative;
-}
-.around-world h5 {
-  padding-top: 55%;
 }
 
 .comments {
@@ -1032,4 +1033,39 @@ footer p {
     margin: 0 auto;
     position: relative;
   }
+}
+
+.popup {
+  background-color: white;
+  border: 20px solid #fe6f19;
+  width: 50%;
+  padding: 20px 30px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 20;
+  left: 50%;
+  top: 50%;
+}
+.popup h2, .popup p {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.popup .purple-button {
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+.popup .close {
+  background-color: transparent;
+  color: grey;
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 0 20px auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
