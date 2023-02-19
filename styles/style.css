@@ -793,17 +793,23 @@ footer p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0 10px;
 }
 .comment-form .comment-name-email {
   padding-bottom: 5%;
 }
 .comment-form .comment-name-email input {
-  width: 100%;
+  width: 50%;
   padding: 5%;
   border: none;
   border-bottom: 2px solid #fe6f19;
   background-color: #fae5ff;
+}
+.comment-form .comment-name-email .comment-text {
+  height: 200px;
+  width: 100%;
 }
 
 .contact-page {

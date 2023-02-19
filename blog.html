@@ -71,44 +71,44 @@
         </section>
         <section class="comments blog-wrapper">
             <h5>COMMENTS:</h5>
-            <div class="flex-container">
-                <figure class="comment-photo">
-                    <img src="assets/comment-1.jpg" alt="Profile photo of commenter">
-                </figure>
-                <div>
-                    <p class="date">
-                        Tuesday November 21st, 2019 by Jeremy
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur vero rem exercitationem a, iusto repellat soluta cupiditate rerum perferendis maxime dignissimos natus non quod repellendus officia error quasi nulla unde.</p>
-                </div>
-            </div>
-            
-            <div class="flex-container">
-                <figure class="comment-photo">
-                    <img src="assets/comment-2.jpg" alt="Profile photo of commenter">
-                </figure>
-                <div>
-                    <p class="date">
-                        Wednesday November 10th, 2019 by Julia
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam blanditiis iure nesciunt delectus alias perspiciatis repellat tempora suscipit doloremque, nihil rerum illo quis laudantium corrupti perferendis dignissimos, illum et.</p>
-                </div>
-            </div>
+            <ul>
+                <li>
+                    <div class="flex-container comment">
+                        <figure class="comment-photo">
+                            <img src="assets/comment-1.jpg" alt="Profile photo of commenter">
+                        </figure>
+                        <div>
+                            <p class="date">
+                                Tuesday November 21st, 2019 by Jeremy
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur vero rem exercitationem a, iusto repellat soluta cupiditate rerum perferendis maxime dignissimos natus non quod repellendus officia error quasi nulla unde.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex-container comment">
+                        <figure class="comment-photo">
+                            <img src="assets/comment-2.jpg" alt="Profile photo of commenter">
+                        </figure>
+                        <div>
+                            <p class="date">
+                                Wednesday November 10th, 2019 by Julia
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam blanditiis iure nesciunt delectus alias perspiciatis repellat tempora suscipit doloremque, nihil rerum illo quis laudantium corrupti perferendis dignissimos, illum et.</p>
+                        </div>
+                    </div> 
+                </li>
+            </ul>
+
         </section>
         <section class="comment-form blog-wrapper">
-            <form action="#" method="#" name="comment-form"></form>
-                <ul class="flex-container comment-name-email">
-                    <li>
-                            <label for="comment-name">Name</label>
-                            <input type="text" id="comment-name" name="comment-name" placeholder="Name">
-                        </form>
-                    </li>
-                    <li>
-                        <label for="comment-email">Email</label>
-                        <input type="email" id="comment-email" placeholder="Email">
+            <form action="#" method="#" name="comment-form" id="comment-form" class="flex-container comment-name-email">
+                    <label for="comment-name">Name</label>
+                    <input type="text" id="comment-name" name="comment-name" placeholder="Name">
 
-                    </li>
-                </ul>
+                    <label for="comment-email">Email</label>
+                    <input type="email" id="comment-email" name="comment-email" placeholder="Email">
+
                     <label for="comment-text">Comment</label>
                     <input type="text" id="comment-text" name="comment-text" class="comment-text" placeholder="Comment">
             
@@ -120,5 +120,7 @@
     <footer>
         <p class="footer"> Copyright 2019 Juno College</p>
     </footer>
+    <script src="https://kit.fontawesome.com/8427b81c2f.js" crossorigin="anonymous"></script>
+    <script src="./blog.js"></script>
 </body>
 </html>
