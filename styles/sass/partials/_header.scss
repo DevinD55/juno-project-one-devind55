@@ -1,11 +1,11 @@
 .home {
-    background-image: url(./assets/header-image.jpg);
+    background-image: url('/assets/header-image.jpg');
     height: 80vh;
     max-width: 100vw;
 }
 
 .blog {
-    background-image: url(./project-1/assets/blog-header.jpg);
+    background-image: url('./project-1/assets/blog-header.jpg');
     height: 60vh;
     max-width: 100vw;
 }
@@ -26,18 +26,23 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
 
     }
-    ul {
+    .open-menu {
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
         padding: 0 10px;
+        background-color: #4C0341;
+        display: none;
+        width: 100%;
+        height: 200px;
+
     }
     nav {
         order: 1;
-        flex-basis: calc((45%) - 80px);
+        // flex-basis: calc((45%) - 80px);
         // width: 35%;
     }
 
