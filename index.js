@@ -5,8 +5,9 @@ document.querySelector("#close").addEventListener('click', function(){
 const hamburger = document.querySelector("#hamburger");
 
 hamburger.addEventListener('click', function(){
-    const menu = document.querySelector(".open-menu");
-    menu.classList.toggle('open-menu.classList.display="none"');
-
-    menu.classList.toggle('open-menu.classList.visibility="visible"');
+    const menu = document.querySelector(".open-hamburger");
+    console.log(menu);
+    menu.classList.toggle("show-menu");
 })
+
+
