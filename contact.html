@@ -17,12 +17,25 @@
     <header class="contact">
         <div class="wrapper flex-container">
             <nav>
-                <ul>
+                <ul class="flex-container top-nav">
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="./blog.html">BLOG</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
+
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i> 
+                </button>
+                    <div class="open-hamburger show-menu">
+                        <ul class="open-menu">
+                            <li><a href="./index.html">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="./blog.html">BLOG</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+
             </nav>
             <p class="top-logo"><span>Shoe</span> Kloset</p>
         </div>
@@ -31,11 +44,11 @@
         </div>
     
         <div class="contact-form floating-contact-form blog-wrapper">
-            <form action="#" method="#" name="contact-form"></form>
+            <form action="#" method="#" name="contact-form" id="contact-form"></form>
                     <ul class="flex-container contact-name-email">
                         <li>
                                 <label for="contact-name">Name</label>
-                                <input type="text" id="cinatact-name" name="contact-name" placeholder="Name">
+                                <input type="text" id="contact-name" name="contact-name" placeholder="Name">
                             </form>
                         </li>
                         <li>
@@ -75,6 +88,9 @@
     <footer>
         <p class="footer"> Copyright 2019 Juno College</p>
     </footer>
+    <script src="https://kit.fontawesome.com/8427b81c2f.js" crossorigin="anonymous"></script>
+    <script src="./contact.js"></script>
+
 </body>
 
 

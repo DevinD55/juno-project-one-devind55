@@ -14,23 +14,37 @@
     <header class="blog">
         <div class="wrapper flex-container">
             <nav>
-                <ul>
+                <ul class="flex-container top-nav">
                     <li><a href="./index.html">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="./blog.html">BLOG</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
                 </ul>
+
+                <button class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i> 
+                </button>
+                    <div class="open-hamburger show-menu">
+                        <ul class="open-menu">
+                            <li><a href="./index.html">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="./blog.html">BLOG</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+
             </nav>
             <p class="top-logo"><span>Shoe</span> Kloset</p>
         </div>
         <div>
             <h1 class="blog-header">BLOG</h1>
         </div>
+    </header>
+    <main class="blog-body">
+
         <div class="floating-blog-image">
             <img src="assets/blog-post-image.jpg" alt="two fashionable people in heels" class="blog-image">
         </div>
-    </header>
-    <main class="blog-body">
 
         <section class="blog-content">
 
@@ -60,55 +74,55 @@
                     <article class="blog-copy">
                         <h5>SHOES AROUND THE WORLD</h5>
                         <p class="date">Monday May 4th, 2019 by Dieula</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In maxime architecto eius saepe inventore repellendus velit optio. Ullam voluptate dignissimos enim, tempore veniam accusantium ab, commodi et assumenda cumque molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus explicabo consequatur blanditiis laborum et quo perferendis tempora dolores, eius nostrum, dolorem asperiores voluptatum magnam modi architecto natus facere? Totam, officia.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In maxime architecto eius saepe inventore repellendus velit optio. Ullam voluptate dignissimos enim, tempore veniam accusantium ab, commodi et assumenda cumque molestias.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam officia modi repellendus perspiciatis sequi iure porro, sunt vero ipsum, voluptatibus quaerat optio amet aliquid assumenda esse accusantium iste reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dignissimos, quam odit alias esse earum ratione quaerat similique ea atque quod eaque? Corporis voluptate illum placeat quod! Perferendis, maiores unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis corrupti facere animi expedita alias fugiat cum esse provident necessitatibus! Voluptatum expedita corporis velit fuga fugit recusandae! Quasi libero officiis distinctio?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laboriosam officia modi repellendus perspiciatis sequi iure porro, sunt vero ipsum, voluptatibus quaerat optio amet aliquid assumenda esse accusantium iste reprehenderit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus architecto nisi tempore aliquam vero! Tempora quis consequatur deserunt natus facilis autem repudiandae sit quas vero, architecto dignissimos itaque laboriosam sed! fart Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus enim omnis ut sapiente. Nam odit aliquam sequi rem officiis quia natus delectus sed, aut ullam itaque eaque possimus deleniti!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus architecto nisi tempore aliquam vero! Tempora quis consequatur deserunt natus facilis autem repudiandae sit quas vero, architecto dignissimos itaque laboriosam sed! </p>
                     </article>
                 </div>
             </div>    
         </section>
         <section class="comments blog-wrapper">
             <h5>COMMENTS:</h5>
-            <div class="flex-container">
-                <figure class="comment-photo">
-                    <img src="assets/comment-1.jpg" alt="Profile photo of commenter">
-                </figure>
-                <div>
-                    <p class="date">
-                        Tuesday November 21st, 2019 by Jeremy
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur vero rem exercitationem a, iusto repellat soluta cupiditate rerum perferendis maxime dignissimos natus non quod repellendus officia error quasi nulla unde.</p>
-                </div>
-            </div>
-            
-            <div class="flex-container">
-                <figure class="comment-photo">
-                    <img src="assets/comment-2.jpg" alt="Profile photo of commenter">
-                </figure>
-                <div>
-                    <p class="date">
-                        Wednesday November 10th, 2019 by Julia
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam blanditiis iure nesciunt delectus alias perspiciatis repellat tempora suscipit doloremque, nihil rerum illo quis laudantium corrupti perferendis dignissimos, illum et.</p>
-                </div>
-            </div>
+            <ul>
+                <li>
+                    <div class="flex-container comment">
+                        <figure class="comment-photo">
+                            <img src="assets/comment-1.jpg" alt="Profile photo of commenter">
+                        </figure>
+                        <div>
+                            <p class="date">
+                                Tuesday November 21st, 2019 by Jeremy
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur vero rem exercitationem a, iusto repellat soluta cupiditate rerum perferendis maxime dignissimos natus non quod repellendus officia error quasi nulla unde.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex-container comment">
+                        <figure class="comment-photo">
+                            <img src="assets/comment-2.jpg" alt="Profile photo of commenter">
+                        </figure>
+                        <div>
+                            <p class="date">
+                                Wednesday November 10th, 2019 by Julia
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam blanditiis iure nesciunt delectus alias perspiciatis repellat tempora suscipit doloremque, nihil rerum illo quis laudantium corrupti perferendis dignissimos, illum et.</p>
+                        </div>
+                    </div> 
+                </li>
+            </ul>
+
         </section>
         <section class="comment-form blog-wrapper">
-            <form action="#" method="#" name="comment-form"></form>
-                <ul class="flex-container comment-name-email">
-                    <li>
-                            <label for="comment-name">Name</label>
-                            <input type="text" id="comment-name" name="comment-name" placeholder="Name">
-                        </form>
-                    </li>
-                    <li>
-                        <label for="comment-email">Email</label>
-                        <input type="email" id="comment-email" placeholder="Email">
+            <form action="#" method="#" name="comment-form" id="comment-form" class="flex-container comment-name-email">
+                    <label for="comment-name">Name</label>
+                    <input type="text" id="comment-name" name="comment-name" placeholder="Name">
 
-                    </li>
-                </ul>
+                    <label for="comment-email">Email</label>
+                    <input type="email" id="comment-email" name="comment-email" placeholder="Email">
+
                     <label for="comment-text">Comment</label>
                     <input type="text" id="comment-text" name="comment-text" class="comment-text" placeholder="Comment">
             
@@ -120,5 +134,7 @@
     <footer>
         <p class="footer"> Copyright 2019 Juno College</p>
     </footer>
+    <script src="https://kit.fontawesome.com/8427b81c2f.js" crossorigin="anonymous"></script>
+    <script src="./blog.js"></script>
 </body>
 </html>
