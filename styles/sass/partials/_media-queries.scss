@@ -24,6 +24,10 @@
             color: white;
         }
 
+        .popup{
+            display: none;
+        }
+
         }
 } 
 
@@ -68,6 +72,11 @@
             display: none;
         }
 
+        .hamburger {
+            display: block;
+        }
+
+
         ul {
             display: flex;
             justify-content: space-between;
@@ -76,7 +85,14 @@
         }
 
         a {
-            color: #fe6f19;
+            color: white;
+        }
+
+        .hamburger {
+            display: block;
+        }
+        .top-nav {
+            display: none;
         }
 
     }
@@ -123,7 +139,7 @@
             }
         }
         a {
-            color: #4C0341;
+            color: white;
         }
         .blog-wrapper{
                 width: 1200px;
@@ -131,6 +147,14 @@
                 margin: 0 auto;
                 position: relative;
         }
+        .hamburger {
+            display: block;
+        }
+        .top-nav {
+            display: none;
+        }
+
+
 
     }
 } 

@@ -15,7 +15,7 @@
         padding-right:15%;
         padding-bottom: 10%;
         h5 {
-            padding-top: 55%;
+            padding-top: 20%;
         }
 
     }
@@ -34,7 +34,6 @@
 .blog-header{
     text-align: center;
 }
-
 
 .around-world {
     position: relative;
@@ -84,12 +83,12 @@
 
         .left-photo {
             z-index: 20;
-            position: absolute
+            position: absolute;
+            width: 70%;
         }
 
         img {
             width: 80%;
-            padding-top:20%;
         }
 
         .left-copy {
@@ -97,7 +96,7 @@
             position: relative;
             display: inline-block;
             padding-left: 5%;
-            padding-top: 50%;
+            padding-top: 20%;
             padding-right: 10%;
             width: 48%;
             top: 120px;

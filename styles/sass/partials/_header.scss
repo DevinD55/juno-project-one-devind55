@@ -1,19 +1,20 @@
 .home {
-    background-image: url('/assets/header-image.jpg');
+    background-image: url('../assets/header-image.jpg');
     height: 80vh;
     max-width: 100vw;
 }
 
 .blog {
-    background-image: url('./project-1/assets/blog-header.jpg');
+    background-image: url('../assets/blog-header.jpg');
     height: 60vh;
-    max-width: 100vw;
+    width: 100vw;
+
 }
 
 .contact {
-    background-image: url(./assets/contact-image);
+    background-image: url('../assets/contact-image.jpg');
     height: 60vh;
-    max-width: 100vw;
+    width: 100vw;
 }
 
 header {
@@ -26,13 +27,10 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        // align-items: center;
 
     }
     .open-menu {
-        // display: flex;
         justify-content: space-around;
-        // flex-direction: column;
         padding: 0 10px;
         background-color: #4C0341;
         width: 100%;
@@ -46,11 +44,16 @@ header {
 
     nav {
         order: 1;
-        flex-basis: calc((45%) - 80px);
-        // width: 35%;
-
+        flex-basis: calc((50%) - 80px);
         .hamburger {
             display: none;
+            position: fixed;
+            right: 4rem;
+            width: 5rem;
+            height: 5rem;
+            font-weight: bold;
+            font-size: 3rem;
+            border-radius: 0.5rem;
         }
 
     }
@@ -80,7 +83,5 @@ header {
 .floating-blog-image {
     z-index: 10;
     position: relative;
-    display: block;
     left: 40%;
-    // top: -50px;
 }
